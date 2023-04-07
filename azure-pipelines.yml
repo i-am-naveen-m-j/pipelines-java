@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+ # pool-name/agent-nameubuntu-latest
+  pool-name/NaveenPCAgent
 
 steps:
 - task: Maven@3
