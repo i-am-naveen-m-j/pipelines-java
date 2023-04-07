@@ -8,7 +8,10 @@ trigger:
 
 pool:
  # pool-name/agent-nameubuntu-latest
-  pool-name/NaveenPCAgent
+ name: NaveenPCAgent
+ # demands: docker
+ # vmImage: null
+ # pool-name/NaveenPCAgent
 
 steps:
 - task: Maven@3
