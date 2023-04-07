@@ -32,7 +32,7 @@ trigger:
 pool:
 #  name: Windows Agents
  # name: NaveenPCAgent
- pool-name/NaveenPCAgent
+ NaveenPCAgent/NaveenPCAgent
 
 steps:
 - task: NuGetToolInstaller@1
