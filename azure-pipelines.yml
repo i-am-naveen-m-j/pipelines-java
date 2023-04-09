@@ -12,7 +12,8 @@ pool:
  #name: NaveenPCAgent
  # demands: docker
  ## vmImage: null
-  AWS
+  #AWS
+  AWS_UBUNTU_MACHINE
 
 steps:
 - task: Maven@3
