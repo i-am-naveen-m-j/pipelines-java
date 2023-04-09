@@ -7,8 +7,10 @@ trigger:
 - main
 
 pool:
-  vmImage: "AWS"
-  
+  name: AWS_UBUNTU_MACHINE
+
+
+
 
 steps:
 - task: Maven@3
