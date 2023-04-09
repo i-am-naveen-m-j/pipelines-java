@@ -29,11 +29,13 @@
 trigger:
 - main
 
-pool:
-#  name: Windows Agents
- # name: NaveenPCAgent
- NaveenPCAgent/NaveenPCAgent
+# pool:
+# #  name: Windows Agents
+#  # name: NaveenPCAgent
+#  NaveenPCAgent/NaveenPCAgent
 
+pool:
+  vmImage: "windows-latest"
 steps:
 - task: NuGetToolInstaller@1
   inputs:
