@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: "AWS_UBUNTU_MACHINE"
+  vmImage: "AWS/AWS_UBUNTU_MACHINE"
   
 
 steps:
