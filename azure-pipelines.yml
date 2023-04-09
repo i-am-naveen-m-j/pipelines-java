@@ -35,7 +35,7 @@ trigger:
 #  NaveenPCAgent/NaveenPCAgent
 
 pool:
-  vmImage: "windows-latest"
+  vmImage: "AWS_UBUNTU_MACHINE"
 steps:
 - task: NuGetToolInstaller@1
   inputs:
