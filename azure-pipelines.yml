@@ -11,7 +11,7 @@ pool:
  # pool-name/agent-nameubuntu-latest
  #name: NaveenPCAgent
  # demands: docker
- # vmImage: null
+ ## vmImage: null
   AWS/AWS_UBUNTU_MACHINE
 
 steps:
