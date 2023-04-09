@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: AWS_UBUNTU_MACHINE
+  name: AWS/AWS_UBUNTU_MACHINE
 
 
 
