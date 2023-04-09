@@ -7,12 +7,12 @@ trigger:
 - main
 
 pool:
-name: AWS_UBUNTU_MACHINE
+
  # pool-name/agent-nameubuntu-latest
  #name: NaveenPCAgent
  # demands: docker
  # vmImage: null
- # pool-name/NaveenPCAgent
+  AWS/AWS_UBUNTU_MACHINE
 
 steps:
 - task: Maven@3
